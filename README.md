@@ -4,8 +4,6 @@
 
 
 # README for cpp-hello.snap
-# Chad Young (chad_young@dell.com)
-
 This is a basic "Hello World!" C++ program and converted into a snap. This snap
 is meant to be used as a reference on how-to create snaps for Ubuntu Core 16
 and as such would not be used in a production enviornment. As with anything you
@@ -16,6 +14,6 @@ Gremlins, Goblins, or Trolls will appear.
 Install the snap that is created using the --devmode option.  
 
 ## How to run
-From the command prompt run "hello-world-cpp.run" (minus quotes)  
-
-
+From the command prompt run "cpp-hello.run" (minus quotes)  
+  
+For questions please email <chad_young@dell.com>

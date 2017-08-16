@@ -1,7 +1,8 @@
-name: hello-world-cpp # the name of the snap
-version: 0.1  # the version of the snap
+name: cpp-hello # the name of the snap
+version: 1.0  # the version of the snap
 summary: A CPP hello world program # 79 char long summary
 description: A program in CPP that says Hello World! # A longer description for the snap
+
 grade: devel
 confinement: devmode
 
@@ -13,7 +14,8 @@ apps:
 parts:
     local:
         plugin: make
-        source: .
-        stage-packages:
-        - libgtk2.0-dev
+        source: https://github.com/chadyoungdell/cpp-hello.snap.code.git
+        source-type: git
+#        stage-packages:
+#        - libgtk2.0-dev
 
